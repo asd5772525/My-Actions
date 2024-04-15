@@ -5,7 +5,7 @@
 # 使用方式
 
 1. 右上角 fork 本仓库 
-2. 点击 Settings -> secrets and variables ->Actions s -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到第三步。)
+2. 点击 Settings -> Secrets and Variables ->Actions -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到第三步。)
 3. 新增 new secret 并设置 Secrets:
 4. 双击右上角自己仓库 Star 触发
 5. **必须** - 请随便找个文件(例如`README.md`)，加个空格提交一下，否则可能会出现无法定时执行的问题

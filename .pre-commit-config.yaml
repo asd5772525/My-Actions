@@ -10,12 +10,12 @@ repos:
       - id: name-tests-test
 
   - repo: https://github.com/python-poetry/poetry
-    rev: 1.7.1
+    rev: 1.8.2
     hooks:
       - id: poetry-check
 
   - repo: https://github.com/PyCQA/autoflake
-    rev: v2.2.1
+    rev: v2.3.1
     hooks:
       - id: autoflake
         args:
@@ -24,33 +24,33 @@ repos:
           - "--remove-unused-variables"
 
   - repo: https://github.com/PyCQA/isort
-    rev: 5.12.0
+    rev: 5.13.2
     hooks:
       - id: isort
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.7.1
+    rev: v1.9.0
     hooks:
       - id: mypy
         additional_dependencies:
         - "pydantic>=1.10.4"
 
   - repo: https://github.com/psf/black
-    rev: 23.11.0
+    rev: 23.12.1
     hooks:
       - id: black
         # args:
         #   - "--config=setup.cfg"
 
   - repo: https://github.com/PyCQA/flake8
-    rev: 6.1.0
+    rev: 7.0.0
     hooks:
       - id: flake8
         args:
           - "--config=setup.cfg"
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.12.0
+    rev: v3.18.4
     hooks:
       - id: commitizen
       # - id: commitizen-branch

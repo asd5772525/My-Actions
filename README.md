@@ -7,7 +7,7 @@
 1. 右上角 fork 本仓库 
 2. 点击 Settings -> Secrets and Variables ->Actions -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到第三步。)
 3. 新增 new secret 并设置 Secrets:(https://www.baidu.com/)
-4. 双击右上角自己仓库 Star 触发
+4. 双击右上角自己仓库 Star 触发  
 5. **必须** - 请随便找个文件(例如`README.md`)，加个空格提交一下，否则可能会出现无法定时执行的问题
 6. 由于规则更新,可能会 Fork 后会默认禁用,请手动点击 Actions 选择要签到的项目 `enable workflows`激活
 7. [定时执行](#定时执行)
